@@ -10,12 +10,10 @@ Features
 
 Built With:
 
-    Python 3.10
-    Django Framework 3.2
+    Python Version > 3.8
+    Django Framework > 3.2
     CoreUI templates
 
 Contributing
 
-Shahid Girgaonkar (Project Manager)
-Yuvraj Limbole (Project Lead)
-Dafia Girgaonkar (Django Developer)
+Yuvraj Limbole (Project Manager)
