@@ -31,7 +31,7 @@ SECRET_KEY = 'asdasdkjsdi676'
 DEBUG = True
 # DEBUG = os.environ['DEBUG']
 
-ALLOWED_HOSTS = ["localhost","127.0.0.1","innerkomfort.com","www.innerkomfort.com"]
+ALLOWED_HOSTS = ["localhost","127.0.0.1","innerkomfort.com","www.innerkomfort.com","143.110.241.76"]
 
 
 # Application definition
