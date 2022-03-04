@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 
+from distutils.debug import DEBUG
 from pathlib import Path
 import os
 
@@ -28,6 +29,7 @@ SECRET_KEY = 'asdasdkjsdi676'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# DEBUG = os.environ['DEBUG']
 
 ALLOWED_HOSTS = ["localhost","127.0.0.1","innerkomfort.com","www.innerkomfort.com"]
 
