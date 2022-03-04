@@ -1,0 +1,706 @@
+{% load static %}
+<header id="ntheader" class="ntheader header_3 h_icon_iccl ">
+    <div class="kalles-header__wrapper ntheader_wrapper pr z_200">
+        <div id="kalles-section-header_top">
+            <div class="h__top bgbl pt__10 pb__10 fs__12 flex fl_center al_center">
+                <div class="container">
+                    <div class="row al_center">
+                        <div class="col-lg-4 col-12 tc tl_lg col-md-12 ">
+                            <div class="header-text">
+                                <i class="pegk pe-7s-call"></i> +91-7875995888 <i class="pegk pe-7s-mail ml__15"></i>
+                                <a class="cg" href="mailto:info@innerkomfort.com">info@innerkomfort.com</span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 tc col-md-12 ">
+                            <div class="header-text">Summer sale discount off <span class="cr">50%</span>!
+                                <a href="#">Shop Now</a></div>
+                        </div>
+                        <div class="col-lg-4 col-12 tc col-md-12 tr_lg ">
+                            <div class="nt_currency pr cg currencies sp_currencies wsn dib  cur_stt_0">
+                                <span class="nt-currency-flag--ind--w16-h-12 active ">INR</span><i class="facl facl-angle-down ml__5"></i>
+                                <ul class="pa pe_none ts__03 bgbl ul_none tl op__0 z_100 r__0 pt__15 pb__15 pr__15 pl__15">
+                                    <li><a class="nt-currency-flag--ind--w16-h-12 cg db selected" href="#">INR</a></li>
+                                    <li><a class="nt-currency-flag--eur--w16-h-12 cg db" href="#">EUR</a></li>
+                                    <li><a class="nt-currency-flag--gbp--w16-h-12 cg db" href="#">GBP</a></li>
+                                    <li><a class="nt-currency-flag--jpy--w16-h-12 cg db" href="#">JPY</a></li>
+                                    <li><a class="nt-currency-flag--usd--w16-h-12 cg db" href="#">USD</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sp_header_mid">
+            <div class="header__mid">
+                <div class="container">
+                    <div class="row al_center css_h_se">
+                        <div class="col-md-4 col-3 dn_lg">
+                            <a href="#" data-id="#nt_menu_canvas" class="push_side push-menu-btn  lh__1 flex al_center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" viewBox="0 0 30 16">
+                                <rect width="30" height="1.5"></rect>
+                                <rect y="7" width="20" height="1.5"></rect>
+                                <rect y="14" width="30" height="1.5"></rect>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6 tc tl_lg">
+                            <div class=" branding ts__05 lh__1">
+                                <a class="dib" href="{% url 'Home-Page' %}">
+                                    <img class="w__95 logo_normal dn db_lg" src="{% static 'images/innerkom-logo.png' %}" alt="Kalles Template">
+                                    <img class="w__100 logo_sticky dn" src="{% static 'images/innerkom-logo.png' %}" alt="Kalles Template">
+                                    <img class="w__100 logo_mobile dn_lg" src="{% static 'images/innerkom-logo.png' %}" alt="Kalles Template">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col dn db_lg">
+                            <nav class="nt_navigation kl_navigation tc hover_side_up nav_arrow_false">
+                                <ul id="nt_menu_id" class="nt_menu in_flex wrap al_center">
+                                    <li class="type_mega menu_wid_cus menu-item has-children menu_has_offsets menu_center pos_center">
+                                        <a class="lh__1 flex al_center pr" href="{% url 'Home-Page' %}">Home</a>
+                                    </li>
+                                    <li class="type_mega menu_wid_cus menu-item has-children menu_has_offsets menu_center pos_center">
+                                        <a class="lh__1 flex al_center pr" href="#">Shop
+                                            <span class="lbc_nav kalles-lbl-new__header">New</span>
+                                        </a>
+                                        <div class="cus sub-menu">
+                                            <div class="container megamenu-content-950px">
+                                                <div class="row lazy_menu lazyload" data-jspackery='{ "itemSelector": ".sub-column-item","gutter": 0,"percentPosition": true,"originLeft": true }'>
+                                                    <div class="type_mn_link menu-item sub-column-item col-2">
+                                                        <a href="#">SHOP BY BRANDS</a>
+                                                        <ul class="sub-column not_tt_mn">
+                                                            <li class="menu-item">
+                                                                <a href="#">Enamor</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Triumph</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Bralux</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Jockey</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Babe's</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Trylo</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Lango</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Dollarr</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Sonari</a>
+                                                            </li>
+                                                        </ul> 
+                                                    </div>
+                                                    <div class="type_mn_link menu-item sub-column-item col-2">
+                                                        <a href="#">SHOP BY CATEGORIES</a>
+                                                        <ul class="sub-column not_tt_mn">
+                                                            <li class="menu-item">
+                                                                <a href="#">Offers
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">hot</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Bra</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Panties</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Sleepwear</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Nightwear</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Bridal Lingerie</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Active wear</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Slips</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Maternity wear</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="type_mn_pr menu-item sub-column-item col-4 equal_nt hoverz_true cat_design_1">
+                                                        <div class="cat_grid_item cat_space_item">
+                                                            <div class="cat_grid_item__content pr oh">
+                                                                <a href="#" class="db cat_grid_item__link">
+                                                                    <div class="cat_grid_item__overlay item__position nt_bg_lz lazyload padding-top__127_586" data-bgset="{% static 'images/megamenu/triumph-product2.jpg' %}"></div>
+                                                                </a>
+                                                                <div class="cat_grid_item__wrapper pe_none">
+                                                                    <div class="cat_grid_item__title">Innerwear</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="type_mn_pr menu-item sub-column-item col-4 equal_nt hoverz_true cat_design_1">
+                                                        <div class="cat_grid_item cat_space_item">
+                                                            <div class="cat_grid_item__content pr oh">
+                                                                <a href="#" class="db cat_grid_item__link">
+                                                                <div class="cat_grid_item__overlay item__position nt_bg_lz lazyload padding-top__127_586" data-bgset="{% static 'images/megamenu/bra-peticoat.jpg' %}"></div>
+                                                                </a>
+                                                                <div class="cat_grid_item__wrapper pe_none">
+                                                                    <div class="cat_grid_item__title">Shapewear</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="type_mega menu_wid_cus menu-item has-children menu_has_offsets menu_center pos_center">
+                                        <a class="lh__1 flex al_center pr" href="#">Product</a>
+                                        <div class="cus sub-menu">
+                                            <div class="container megamenu-content-1050px">
+                                                <div class="row lazy_menu lazyload" data-jspackery='{ "itemSelector": ".sub-column-item","gutter": 0,"percentPosition": true,"originLeft": true }'>
+                                                    <div class="type_mn_link menu-item sub-column-item col-3">
+                                                        <a href="#">Ladies Intimates</a>
+                                                        <ul class="sub-column not_tt_mn">
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Detail Layout 1</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Detail Layout 2</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Detail Layout 3</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product thumb at bottom</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product thumb on right</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product without thumbnail</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Left Sidebar</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Right sidebar</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Sidebar Full Height</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Tab Accordions</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Full Width ATC</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product full width layout</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Advance Product Type
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">Hot</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="type_mn_link menu-item sub-column-item col-3">
+                                                        <a href="#">Girls Intimate</a>
+                                                        <ul class="sub-column not_tt_mn">
+                                                            <li class="menu-item">
+                                                                <a href="#">External/Affiliate Product</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Simple product</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Variable product</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Grouped Product
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">hot</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Inner Zoom #1</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">External Zoom</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Inner Zoom #2</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">PhotoSwipe Popup</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Description with product</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Description with instagram shop</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product video
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">hot</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product 3D, AR models
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">hot</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="type_mn_link menu-item sub-column-item col-3">
+                                                        <a href="#">Maternity Intimates</a>
+                                                        <ul class="sub-column not_tt_mn">
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Color Swatch</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Gallery Swatch</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Images Swatch</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Swatch Color</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Swatch Color Circle</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Swatch Radio</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Swatch Radio Color</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Swatch Rectangle</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Swatch Rectangle Color</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Swatch Simple</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Swatch Simple Color</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="type_mn_link menu-item sub-column-item col-3">
+                                                        <a href="#">Others</a>
+                                                        <ul class="sub-column not_tt_mn">
+                                                            <li class="menu-item">
+                                                                <a href="#">Frequently Bought Together
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">Hot</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product pre-orders</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product Upsell Features
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">Hot</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Description with Lookbook
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">Hot</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Back in stock notification</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Variant Images Grouped
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">Hot</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Size Guide HTML</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Delivery &amp; Return</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Ask a Question</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Product sticky</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">360° product viewer</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Dynamic checkout buttons
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">Hot</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="#">Sticky add to cart
+                                                                    <span class="lbc_nav lb_menu_hot ml__5">Hot</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="type_mega menu_wid_cus menu-item has-children menu_has_offsets menu_center pos_center">
+                                        <a class="lh__1 flex al_center pr kalles-lbl__nav-sale" href="#">Sale
+                                            <span class="lbc_nav">Sale</span>
+                                        </a>
+                                        <div class="cus sub-menu">
+                                            <div class="container megamenu-content-1200px">
+                                                <div class="row lazy_menu lazyload" data-jspackery='{ "itemSelector": ".sub-column-item","gutter": 0,"percentPosition": true,"originLeft": true }'>
+                                                    <div class="type_mn_link2 menu-item sub-column-item col-2">
+                                                        <a href="#">Bra</a>
+                                                        <a href="#">Panties</a>
+                                                        <a href="#">Big Size Bra</a>
+                                                        <a href="#">Nighty</a>
+                                                        <a href="#">Shapewear</a>
+                                                        <a href="#">Shorts</a>
+                                                        <a href="#">Bridal Ligeries</a>
+                                                        <a href="#">Accessories</a>
+                                                    </div>
+                                                    <div class="type_mn_pr menu-item sub-column-item col-10">
+                                                        <div class="prs_nav js_carousel nt_slider products nt_products_holder row al_center row_pr_1 cdt_des_1 round_cd_false nt_cover ratio_nt position_8 flickity-enabled is-draggable" data-flickity='{"imagesLoaded": 0,"adaptiveHeight": 0, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": 1,"prevNextButtons": 1,"percentPosition": 1,"pageDots": 0, "autoPlay" : 0, "pauseAutoPlayOnHover" : 1, "rightToLeft": false }'>
+                                                            <div class="col-lg-3 col-md-12 col-12 pr_animated done mt__30 pr_grid_item product nt_pr desgin__1">
+                                                                <div class="product-inner pr">
+                                                                    <div class="product-image pr oh lazyload">
+                                                                        <span class="tc nt_labels pa pe_none cw">
+                                                                            <span class="nt_label new">New</span>
+                                                                        </span>
+                                                                        <a class="d-block" href="#">
+                                                                            <div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/8.jpg' %}"></div>
+                                                                        </a>
+                                                                        <div class="hover_img pa pe_none t__0 l__0 r__0 b__0 op__0">
+                                                                            <div class="pr_lazy_img back-img pa nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/81.jpg' %}"></div>
+                                                                        </div>
+                                                                        <div class="nt_add_w ts__03 pa ">
+                                                                            <a href="#" class="wishlistadd cb chp ttip_nt tooltip_right">
+                                                                                <span class="tt_txt">Add to Wishlist</span>
+                                                                                <i class="facl facl-heart-o"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="hover_button op__0 tc pa flex column ts__03">
+                                                                            <a class="pr nt_add_qv js_add_qv cd br__40 pl__25 pr__25 bgw tc dib ttip_nt tooltip_top_left" href="#">
+                                                                                <span class="tt_txt">Quick view</span>
+                                                                                <i class="iccl iccl-eye"></i>
+                                                                                <span>Quick view</span>
+                                                                            </a>
+                                                                            <a href="#" class="pr pr_atc cd br__40 bgw tc dib js__qs cb chp ttip_nt tooltip_top_left">
+                                                                                <span class="tt_txt">Quick Shop</span>
+                                                                                <i class="iccl iccl-cart"></i>
+                                                                                <span>Quick Shop</span>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="product-attr pa ts__03 cw op__0 tc">
+                                                                            <p class="truncate mg__0 w__100">XS, S, M, L, XL</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="product-info mt__15">
+                                                                        <h3 class="product-title pr fs__14 mg__0 fwm">
+                                                                            <a class="cd chp" href="#">Analogue Resin Strap</a>
+                                                                        </h3>
+                                                                        <span class="price dib mb__5">$30.00</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-12 col-12 pr_animated done mt__30 pr_grid_item product nt_pr desgin__1">
+                                                                <div class="product-inner pr">
+                                                                    <div class="product-image pr oh lazyload">
+                                                                        <a class="d-block" href="#">
+                                                                            <div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/1.jpg' %}"></div>
+                                                                        </a>
+                                                                        <div class="hover_img pa pe_none t__0 l__0 r__0 b__0 op__0">
+                                                                            <div class="pr_lazy_img back-img pa nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/11.jpg' %}"></div>
+                                                                        </div>
+                                                                        <div class="nt_add_w ts__03 pa ">
+                                                                            <a href="#" class="wishlistadd cb chp ttip_nt tooltip_right">
+                                                                                <span class="tt_txt">Add to Wishlist</span>
+                                                                                <i class="facl facl-heart-o"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="hover_button op__0 tc pa flex column ts__03">
+                                                                            <a class="pr nt_add_qv js_add_qv cd br__40 pl__25 pr__25 bgw tc dib ttip_nt tooltip_top_left" href="#">
+                                                                                <span class="tt_txt">Quick view</span>
+                                                                                <i class="iccl iccl-eye"></i>
+                                                                                <span>Quick view</span>
+                                                                            </a>
+                                                                            <a href="#" class="pr pr_atc cd br__40 bgw tc dib js__qs cb chp ttip_nt tooltip_top_left">
+                                                                                <span class="tt_txt">Quick Shop</span>
+                                                                                <i class="iccl iccl-cart"></i>
+                                                                                <span>Quick Shop</span>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="product-attr pa ts__03 cw op__0 tc">
+                                                                        <p class="truncate mg__0 w__100">S, M, L</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="product-info mt__15">
+                                                                        <h3 class="product-title pr fs__14 mg__0 fwm">
+                                                                            <a class="cd chp" href="#">Ridley High Waist</a>
+                                                                        </h3>
+                                                                        <span class="price dib mb__5">$36.00</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-12 col-12 pr_animated done mt__30 pr_grid_item product nt_pr desgin__1">
+                                                                <div class="product-inner pr">
+                                                                    <div class="product-image pr oh lazyload">
+                                                                        <a class="d-block" href="#">
+                                                                            <div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/bra-with-saree.jpg' %}"></div>
+                                                                        </a>
+                                                                        <div class="hover_img pa pe_none t__0 l__0 r__0 b__0 op__0">
+                                                                            <div class="pr_lazy_img back-img pa nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/bra-peticoat.jpg' %}"></div>
+                                                                        </div>
+                                                                        <div class="nt_add_w ts__03 pa ">
+                                                                            <a href="#" class="wishlistadd cb chp ttip_nt tooltip_right">
+                                                                                <span class="tt_txt">Add to Wishlist</span>
+                                                                                <i class="facl facl-heart-o"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="hover_button op__0 tc pa flex column ts__03">
+                                                                            <a class="pr nt_add_qv js_add_qv cd br__40 pl__25 pr__25 bgw tc dib ttip_nt tooltip_top_left" href="#">
+                                                                                <span class="tt_txt">Quick view</span>
+                                                                                <i class="iccl iccl-eye"></i>
+                                                                                <span>Quick view</span>
+                                                                            </a>
+                                                                            <a href="#" class="pr pr_atc cd br__40 bgw tc dib js__qs cb chp ttip_nt tooltip_top_left">
+                                                                                <span class="tt_txt">Quick Shop</span>
+                                                                                <i class="iccl iccl-cart"></i>
+                                                                                <span>Quick Shop</span>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="product-attr pa ts__03 cw op__0 tc">
+                                                                            <p class="truncate mg__0 w__100">S, M, L</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="product-info mt__15">
+                                                                        <h3 class="product-title pr fs__14 mg__0 fwm">
+                                                                            <a class="cd chp" href="#">Blush Beanie</a>
+                                                                        </h3>
+                                                                        <span class="price dib mb__5">$15.00</span>
+                                                                        <div class="swatch__list_js swatch__list lh__1 nt_swatches_on_grid">
+                                                                            <span data-bgset="{% static 'images/products/bridal-1.jpg' %}" class="lazyload nt_swatch_on_bg swatch__list--item pr ttip_nt tooltip_top_right"><span class="tt_txt">Grey</span><span class="swatch__value bg_color_grey"></span></span>
+                                                                            <span data-bgset="{% static 'images/products/bridal-12.jpg' %}" class="lazyload nt_swatch_on_bg swatch__list--item pr ttip_nt tooltip_top_right"><span class="tt_txt">Pink</span><span class="swatch__value bg_color_pink"></span></span>
+                                                                            <span data-bgset="{% static 'images/products/bridal-lingerie-set.jpg' %}" class="lazyload nt_swatch_on_bg swatch__list--item pr ttip_nt tooltip_top_right"><span class="tt_txt">Black</span><span class="swatch__value bg_color_black"></span></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-12 col-12 pr_animated done mt__30 pr_grid_item product nt_pr desgin__1">
+                                                                <div class="product-inner pr">
+                                                                    <div class="product-image pr oh lazyload">
+                                                                        <span class="tc nt_labels pa pe_none cw">
+                                                                            <span class="onsale nt_label">
+                                                                            <span>-25%</span>
+                                                                            </span>
+                                                                        </span>
+                                                                        <a class="d-block" href="#">
+                                                                            <div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/7.jpg' %}"></div>
+                                                                        </a>
+                                                                        <div class="hover_img pa pe_none t__0 l__0 r__0 b__0 op__0">
+                                                                            <div class="pr_lazy_img back-img pa nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/71.jpg' %}"></div>
+                                                                        </div>
+                                                                        <div class="nt_add_w ts__03 pa ">
+                                                                            <a href="#" class="wishlistadd cb chp ttip_nt tooltip_right">
+                                                                                <span class="tt_txt">Add to Wishlist</span>
+                                                                                <i class="facl facl-heart-o"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                    <div class="hover_button op__0 tc pa flex column ts__03">
+                                                                        <a class="pr nt_add_qv js_add_qv cd br__40 pl__25 pr__25 bgw tc dib ttip_nt tooltip_top_left" href="#">
+                                                                            <span class="tt_txt">Quick view</span>
+                                                                            <i class="iccl iccl-eye"></i>
+                                                                            <span>Quick view</span>
+                                                                        </a>
+                                                                        <a href="#" class="pr pr_atc cd br__40 bgw tc dib js__qs cb chp ttip_nt tooltip_top_left">
+                                                                            <span class="tt_txt">Quick Shop</span>
+                                                                            <i class="iccl iccl-cart"></i>
+                                                                            <span>Quick Shop</span>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="product-attr pa ts__03 cw op__0 tc">
+                                                                        <p class="truncate mg__0 w__100">XS, S, M</p>
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="product-info mt__15">
+                                                                        <h3 class="product-title pr fs__14 mg__0 fwm">
+                                                                            <a class="cd chp" href="#">Cluse La Boheme Rose Gold</a>
+                                                                        </h3>
+                                                                        <span class="price dib mb__5">
+                                                                            <del>$60.00</del>
+                                                                            <ins>$45.00</ins>
+                                                                        </span>
+                                                                        <div class="swatch__list_js swatch__list lh__1 nt_swatches_on_grid">
+                                                                            <span data-bgset="{% static 'images/products/7.jpg' %}" class="nt_swatch_on_bg swatch__list--item pr ttip_nt tooltip_top_right"><span class="tt_txt">Green</span><span class="swatch__value bg_color_green"></span></span>
+                                                                            <span data-bgset="{% static 'images/products/71.jpg' %}" class="nt_swatch_on_bg swatch__list--item pr ttip_nt tooltip_top_right"><span class="tt_txt">Grey</span><span class="swatch__value bg_color_grey"></span></span>
+                                                                            <span data-bgset="{% static 'images/products/bra-with-saree.jpg' %}" class="nt_swatch_on_bg swatch__list--item pr ttip_nt tooltip_top_right"><span class="tt_txt">Blue</span><span class="swatch__value bg_color_blue"></span></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-12 col-12 pr_animated done mt__30 pr_grid_item product nt_pr desgin__1">
+                                                                <div class="product-inner pr">
+                                                                    <div class="product-image position-relative oh lazyload">
+                                                                        <a class="d-block" href="#">
+                                                                            <div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/sleepwear-red.jpg' %}"></div>
+                                                                        </a>
+                                                                        <div class="hover_img pa pe_none t__0 l__0 r__0 b__0 op__0">
+                                                                            <div class="pr_lazy_img back-img pa nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/sleepwear-red1.jpg' %}"></div>
+                                                                        </div>
+                                                                        <div class="nt_add_w ts__03 pa ">
+                                                                            <a href="#" class="wishlistadd cb chp ttip_nt tooltip_right">
+                                                                                <span class="tt_txt">Add to Wishlist</span>
+                                                                                <i class="facl facl-heart-o"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="hover_button op__0 tc pa flex column ts__03">
+                                                                            <a class="pr nt_add_qv js_add_qv cd br__40 pl__25 pr__25 bgw tc dib ttip_nt tooltip_top_left" href="#">
+                                                                                <span class="tt_txt">Quick view</span>
+                                                                                <i class="iccl iccl-eye"></i>
+                                                                                <span>Quick view</span>
+                                                                            </a>
+                                                                            <a href="#" class="pr pr_atc cd br__40 bgw tc dib js__qs cb chp ttip_nt tooltip_top_left">
+                                                                                <span class="tt_txt">Quick Shop</span>
+                                                                                <i class="iccl iccl-cart"></i>
+                                                                                <span>Quick Shop</span>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="product-attr pa ts__03 cw op__0 tc">
+                                                                            <p class="truncate mg__0 w__100">S, M</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="product-info mt__15">
+                                                                        <h3 class="product-title position-relative fs__14 mg__0 fwm">
+                                                                            <a class="cd chp" href="#">Mercury Tee</a>
+                                                                        </h3>
+                                                                        <span class="price dib mb__5">$68.00</span>
+                                                                        <div class="swatch__list_js swatch__list lh__1 nt_swatches_on_grid">
+                                                                            <span data-bgset="{% static 'images/products/sleepwear-red.jpg' %}" class="nt_swatch_on_bg swatch__list--item position-relative ttip_nt tooltip_top_right"><span class="tt_txt">White Cream</span><span class="swatch__value bg_color_white-cream lazyload" data-bgset="{% static 'images/products/sleepwear-red1.jpg"></span></span>
+                                                                            <span data-bgset="{% static 'images/products/pr-14.jpg' %}" class="nt_swatch_on_bg swatch__list--item position-relative ttip_nt tooltip_top_right"><span class="tt_txt">Heart Dotted</span><span class="swatch__value bg_color_heart-dotted lazyload" data-bgset="{% static 'images/products/triumph-product2.jpg"></span></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-12 col-12 pr_animated done mt__30 pr_grid_item product nt_pr desgin__1">
+                                                                <div class="product-inner pr">
+                                                                    <div class="product-image position-relative oh lazyload">
+                                                                    <span class="tc nt_labels pa pe_none cw">
+                                                                    <span class="onsale nt_label">
+                                                                    <span>-34%</span>
+                                                                    </span>
+                                                                    </span>
+                                                                    <a class="d-block" href="#">
+                                                                    <div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/pr-11.jpg' %}"></div>
+                                                                    </a>
+                                                                    <div class="hover_img pa pe_none t__0 l__0 r__0 b__0 op__0">
+                                                                    <div class="pr_lazy_img back-img pa nt_bg_lz lazyload padding-top__127_571" data-bgset="{% static 'images/megamenu/pr-12.jpg' %}"></div>
+                                                                    </div>
+                                                                    <div class="nt_add_w ts__03 pa ">
+                                                                    <a href="#" class="wishlistadd cb chp ttip_nt tooltip_right">
+                                                                    <span class="tt_txt">Add to Wishlist</span>
+                                                                    <i class="facl facl-heart-o"></i>
+                                                                    </a>
+                                                                    </div>
+                                                                    <div class="hover_button op__0 tc pa flex column ts__03">
+                                                                    <a class="pr nt_add_qv js_add_qv cd br__40 pl__25 pr__25 bgw tc dib ttip_nt tooltip_top_left" href="#">
+                                                                    <span class="tt_txt">Quick view</span>
+                                                                    <i class="iccl iccl-eye"></i>
+                                                                    <span>Quick view</span>
+                                                                    </a>
+                                                                    <a href="#" class="pr pr_atc cd br__40 bgw tc dib js__qs cb chp ttip_nt tooltip_top_left">
+                                                                    <span class="tt_txt">Quick Shop</span>
+                                                                    <i class="iccl iccl-cart"></i>
+                                                                    <span>Quick Shop</span>
+                                                                    </a>
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="product-info mt__15">
+                                                                        <h3 class="product-title position-relative fs__14 mg__0 fwm">
+                                                                            <a class="cd chp" href="#">La Bohème Rose Gold</a>
+                                                                        </h3>
+                                                                        <span class="price dib mb__5">
+                                                                            <del>$60.00</del>
+                                                                            <ins>$40.00</ins>
+                                                                        </span>
+                                                                        <div class="swatch__list_js swatch__list lh__1 nt_swatches_on_grid">
+                                                                            <span data-bgset="{% static 'images/products/6.jpg' %}" class="nt_swatch_on_bg swatch__list--item position-relative ttip_nt tooltip_top_right"><span class="tt_txt">Pink</span><span class="swatch__value bg_color_pink lazyload"></span></span>
+                                                                            <span data-bgset="{% static 'images/products/61.jpg' %}" class="nt_swatch_on_bg swatch__list--item position-relative ttip_nt tooltip_top_right"><span class="tt_txt">Black</span><span class="swatch__value bg_color_black lazyload"></span></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="type_dropdown menu-item has-children menu_has_offsets menu_right pos_right">
+                                        <a class="lh__1 flex al_center pr" href="#">Portfolio</a>
+                                        <div class="sub-menu">
+                                            <div class="lazy_menu lazyload">
+                                                <div class="menu-item">
+                                                    <a href="#">Portfolio 2 Columns</a></div>
+                                                <div class="menu-item">
+                                                    <a href="#">Portfolio 3 Columns</a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a href="#">Portfolio 4 Columns</a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a href="#">Single Portfolio With Shop</a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a href="#">Single Portfolio With Lookbook</a>
+                                                </div>
+                                                <div class="menu-item">
+                                                    <a href="#">Portfolio With Instagram Shop</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="type_dropdown menu-item has-children menu_has_offsets menu_right pos_right">
+                                        <a class="lh__1 flex al_center pr" href="#">Trending</a>
+                                    </li>
+                                    <li class="type_dropdown menu-item has-children menu_has_offsets menu_right pos_right">
+                                        <a class="lh__1 flex al_center pr" href="#">Blog</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-lg-auto col-md-4 col-3 tr col_group_btns">
+                            <div class="nt_action in_flex al_center cart_des_1">
+                                <a class="icon_search push_side cb chp" data-id="#nt_search_canvas" href="#">
+                                <i class="iccl iccl-search"></i></a>
+                                <div class="my-account ts__05 position-relative dn db_md">
+                                    <a class="cb chp db push_side" href="#" data-id="#nt_login_canvas">
+                                    <i class="iccl iccl-user"></i></a>
+                                </div>
+                                <a class="icon_like cb chp position-relative dn db_md js_link_wis" href="#"><i class="iccl iccl-heart pr"><span class="op__0 ts_op pa tcount bgb br__50 cw tc">3</span></i>
+                                </a>
+                                <div class="icon_cart pr">
+                                <a class="push_side position-relative cb chp db" href="#" data-id="#nt_cart_canvas"><i class="iccl iccl-cart pr"><span class="op__0 ts_op pa tcount bgb br__50 cw tc">5</span></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
