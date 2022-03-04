@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'asdasdkjsdi676'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 # DEBUG = os.environ['DEBUG']
 
 ALLOWED_HOSTS = ["localhost","127.0.0.1","innerkomfort.com","www.innerkomfort.com","143.110.241.76"]
