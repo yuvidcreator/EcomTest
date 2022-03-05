@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'asdasdkjsdi676'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 # DEBUG = os.environ['DEBUG']
 
 ALLOWED_HOSTS = ["localhost","127.0.0.1","innerkomfort.com","www.innerkomfort.com","143.110.241.76"]
@@ -160,8 +160,12 @@ MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'assets'), ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+if DEBUG:
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'assets/images')
+else:
+    STATIC_ROOT = "/home/yuvi/myprojectdir/staticfiles"
+    STATIC_ROOT = "/home/yuvi/myprojectdir/staticfiles/images"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
