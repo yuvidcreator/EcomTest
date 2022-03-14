@@ -37,7 +37,7 @@ ALLOWED_HOSTS = ["localhost","127.0.0.1","innerkomfort.com","www.innerkomfort.co
 # Application definition
 
 INSTALLED_APPS = [
-    "whitenoise.runserver_nostatic",
+    # "whitenoise.runserver_nostatic",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    "whitenoise.middleware.WhiteNoiseMiddleware",
+    # "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -58,7 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+# STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 ROOT_URLCONF = 'coreEcom.urls'
 
@@ -166,10 +166,10 @@ STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'assets'), ]
 
 if DEBUG:
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 else:
     STATIC_ROOT = "/home/yuvi/myprojectdir/staticfiles"
-    MEDIA_ROOT = "/home/yuvi/myprojectdir/staticfiles/images"
+    MEDIA_ROOT = "/home/yuvi/myprojectdir/media"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
