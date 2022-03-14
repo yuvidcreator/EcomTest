@@ -166,10 +166,10 @@ STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'assets'), ]
 
 if DEBUG:
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'assets/images')
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
 else:
     STATIC_ROOT = "/home/yuvi/myprojectdir/staticfiles"
-    STATIC_ROOT = "/home/yuvi/myprojectdir/staticfiles/images"
+    MEDIA_ROOT = "/home/yuvi/myprojectdir/staticfiles/images"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
