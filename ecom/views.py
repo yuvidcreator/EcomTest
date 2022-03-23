@@ -4,3 +4,8 @@ from django.shortcuts import render
 
 def HomePage(request):
     return render(request, 'front/index.html')
+
+
+
+def all_prodyucsts(request):
+    return render(request, 'front/shop.html')

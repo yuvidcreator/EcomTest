@@ -9,14 +9,14 @@
 
     <meta name="referrer" content="no-referrer-when-downgrade" />
     <meta name="description" content="{% block meta_dec %}{% endblock meta_dec %}" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="{% block meta_keywords %}{% endblock meta_keywords %}" />
     <meta name="author" content="Yuvraaj Limbole" />
     <meta name="robots" content="all" />
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta property="article:published_time" content="2021-03-08GMT+053010:25:12+05:30" />
     <meta property="article:modified_time" content="2021-07-10GMT+053009:05:21+05:30" />
-    <link rel="canonical" href="https://www.innerkomfort.com/" />
+    <link rel="canonical" href="https://www.innerkomfort.com{% block cononicalurl %}{% endblock cononicalurl %}" />
     <link rel="alternate" href="https://www.innerkomfort.com/" hreflang="en-in" />
 
     <!-- All Styel CSS -->
